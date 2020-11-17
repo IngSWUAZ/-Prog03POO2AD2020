@@ -30,7 +30,12 @@ Reemplace por la carpeta donde tenga ubicado el SDK de Android
 
 El proyecto ya contiene una aplicación funcional que muestra una lista de instituciones creadas manualmente, durante las sesiones del 17 al 19 de noviembre se mostrará como crear el código para bajar las instituciones del servicio REST correspondiente y como solicitar a tal servicio que agregue, actualice o elimine una institucion.
 
-Su trabajo consistirá en realizar un trabajo similar para el servicio de Personas, para lo cual el proyecto ya tiene algunos de los archivos XML necesarios, aunque necesitará agregar todos los strings necesarios a strings.xml, completar persona_detalle.xml, la versión landscape de activity_detalle_persona.xml, así como el código en las clases ListPersonaActivity y DetallePersonaActivity.
+Su trabajo consistirá en realizar un trabajo similar para el servicio de Personas, para lo cual el proyecto ya tiene algunos de los archivos XML necesarios, aunque deberá realizar lo siguiente:
+1. agregar todos los strings necesarios a strings.xml
+2. completar persona_detalle.xml
+3. generar la versión landscape de activity_detalle_persona.xml
+4. completar los métodos que tienen que ver con Persona en DaoConcursosImpl
+5. Escribir  el código de las clases ListPersonaActivity y DetallePersonaActivity para que realicen el trabajo necesario (siguiendo la estructura de ListInstitucionActivity y DetalleInstitucionActivity)
 
 Cuando vaya a probar su programa, deberá tener corriendo los servicios REST del Programa 2, y deberá accederlos usando la dirección IP de su computadora, la cual pondrá en lugar de localhost en el URL Base de los servicios. El URL Base deberá ser colocado en el string url_base del archivo strings.xml
 
