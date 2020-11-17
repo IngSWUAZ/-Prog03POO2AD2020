@@ -38,7 +38,6 @@ Su trabajo consistirá en realizar un trabajo similar para el servicio de Person
 5. Escribir  el código de las clases ListPersonaActivity y DetallePersonaActivity para que realicen el trabajo necesario (siguiendo la estructura de ListInstitucionActivity y DetalleInstitucionActivity)
 
 
-
 ## CALIFICACIÓN
 
 Para este programa no habrá una prueba automatizada en Github y la realizará el instructor de manera manual. La fecha y hora límite para hacer el push final es a las **08:00 AM del viernes 4 de diciembre del 2020**, para alcanzar calificación en ordinario.
