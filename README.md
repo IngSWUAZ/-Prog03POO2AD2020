@@ -23,7 +23,7 @@ Como primer paso, será necesario crear una copia local del repositorio remoto c
 1. Modifique en el archivo strings.xml ubicado dentro de res/values, el string nombre_autor, para que contenga su nombre completo
 2. Una vez que se hayan instalado todas las dependencias, ejecute el programa, si le marca un error de que no puede encontrar el Android SDK, será necesario crear un archivo de nombre local.properties en la carpeta raíz de su proyecto (este archivo NO DEBE SUBIRSE AL REPOSITORIO REMOTO, NO LO INCLUYA EN LOS COMMIT) que contenga una línea como la siguiente (se muestre ejemplo para Windows, en Linux en vez de cada doble \ se usa una /):
 
-~~sdk.dir=C\:\\Users\\nomusuario\\AppData\\Local\\Android\\Sdk~~
+*sdk.dir=C\:\\Users\\nomusuario\\AppData\\Local\\Android\\Sdk*
 
 Reemplace la ruta puesta en el ejemplo por la ruta donde usted tenga instalado el SDK de Android
 
