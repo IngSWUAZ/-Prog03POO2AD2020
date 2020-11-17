@@ -22,8 +22,10 @@ Como primer paso, será necesario crear una copia local del repositorio remoto c
 
 1. Modifique en el archivo strings.xml ubicado dentro de res/values, el string nombre_autor, para que contenga su nombre completo
 2. Una vez que se hayan instalado todas las dependencias, ejecute el programa, si le marca un error de que no puede encontrar el Android SDK, será necesario crear un archivo de nombre local.properties en la carpeta raíz de su proyecto (este archivo NO DEBE SUBIRSE AL REPOSITORIO REMOTO, NO LO INCLUYA EN LOS COMMIT) que contenga una línea como la siguiente (se muestre ejemplo para Windows, en Linux en vez de cada doble \ se usa una /):
-sdk.dir=C\:\\Users\\nomusuario\\AppData\\Local\\Android\\Sdk
-Reemplace por la carpeta donde tenga ubicado el SDK de Android
+
+~~sdk.dir=C\:\\Users\\nomusuario\\AppData\\Local\\Android\\Sdk~~
+
+Reemplace la ruta puesta en el ejemplo por la ruta donde usted tenga instalado el SDK de Android
 
 
 ## MODIFICACIÓN DEL CÓDIGO PROPORCIONADO
@@ -47,9 +49,11 @@ Para este programa no habrá una prueba automatizada en Github y la realizará e
 1. Cuando vaya a probar su programa, deberá tener corriendo los servicios REST del Programa 2, y deberá accederlos usando la dirección IP de su computadora, la cual pondrá en lugar de localhost en el URL Base de los servicios. El URL Base deberá ser colocado en el string url_base del archivo strings.xml
 
    Para obtener su dirección IP puede usar el comando ipconfig en Windows o ifconfig en Linux/Mac. Una vez obtenida su dirección, en lugar entonces de poner el URL base como:
+
    **http://localhost:8080/RESTConcursos-361772/servicios/**
 
    Se pondría como:
+
    **http://192.168.4.117:8080/RESTConcursos-361772/servicios/**
    
    Si su dirección IP fuera 192.168.4.117
